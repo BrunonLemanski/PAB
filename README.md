@@ -128,7 +128,7 @@ czyli: po wyróznieniu wszytskicgh fragmentów, które mogą być datami sprawdi
 4.a) Napisać wyrażenie regularne, za pomoca którego mozna odnaleźć w tekście dowolne liczby rzeczywiste.
 b) zastosować je do przetwarzania tekstu zawierającego (posród innych) napisy w postaci liczba PLN, w taki sposób, aby zamienić te fragmenty na liczba EUR (po aktualnym kursie).
 
-### PAB 06
+### PAB 07
 
 1.Firma software'owa prowadzi projekty w:
 Groovy, Grails, Java, JEE
