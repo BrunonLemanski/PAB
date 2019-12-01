@@ -1,8 +1,8 @@
 package PAB07
 
 def empsMap = [:]
-def projektyDuzeFile = new File('projekyDuze')
-def projektyFile = new File('E:\\Pliki\\IJ Workspace\\PAB01\\src\\PAB07\\Projekty').eachLine { line ->
+def projektyDuzeFile = new File('Pab07resources\\projekyDuze')
+def projektyFile = new File('E:\\Pliki\\GitHub\\PAB_Groovy\\src\\PAB07\\Pab07resources\\Projekty').eachLine { line ->
     def tokens = line.tokenize('\t')
     def project = tokens[0]
     def emps = tokens[1..tokens.size() - 1]
@@ -17,5 +17,5 @@ def projektyFile = new File('E:\\Pliki\\IJ Workspace\\PAB01\\src\\PAB07\\Projekt
     if (emps.size() > 3) projektyDuzeFile << "$project: $emps \n"
 }
 
-def programisciFile = new File('programisci')
+def programisciFile = new File('Pab07resources\\programisci')
 empsMap.each { key, value -> programisciFile << "Dev: $key \nProjekty: $value \n\n" }
