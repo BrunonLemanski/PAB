@@ -187,3 +187,21 @@ b) uwzględnić porządek alfabetyczny dla danego języka
 6.Na liście słów z http://wiki.puzzlers.org/pub/wordlists/unixdict.txt znaleźć wszystkie anagramy.  
 a) wypisać je dla wszystkich słów w porządku liczby  anagramów danego słowa
 b) dla słowa podanego w dialogu wypisać anagramy w porządku alfabetycznym.
+
+### PAB 09
+
+1.Stworzyć okno ramowe frame z tytułem "Prosty edytor", zawierające komponent textArea (wielowierszowe pole edycyjne). Zapewnić możliwość ustawiania na początku  programu rodzaju i rozmiaru pisma oraz kolorów tła i pisma.
+
+2.Przycisk umieszczony w oknie zmienia kolory swojego tła na skutek kliknięć. Ustalić dowolną sekwencję kolorów, po jej wyczerpaniu zacząć od pierwszego.
+
+3.Pięć przycisków z napisami "Przycisk 1" - "Przycisk 5" pokazać w oknie przy użyciu różnych menedżerów rozkładu. Rozkład ma być wybierany na starcie aplikacji - np. w dialogu wejściowym.
+
+4.Napisać skrypt - przeglądarkę obrazków z podanego katalogu.  
+Na etykiecie w oknie  maja być pokazywane obrazki z katalogu wybranego po uruchomieniu programu.  
+Na poczatku pokazywany jest piewrszy obrazek, przyciśnięcia przycisku "Next" pokazują następne.  
+
+Pomoc:  
+a) przegladanie katalogow i uzyskiwanie nazw plikow - znamy,  
+b) metoda imageIcon(nazwa_pliku) zwraca ikone = obraz z pliku (typy: png i jpg)  
+b) metoda setIcon pozwala na ustalenie ikony (obrazka) na etykiecie label  
+
