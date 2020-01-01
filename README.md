@@ -79,18 +79,18 @@ eachTuple(s) { a,b ->
 }
 println out
 ```
-Wypisze:
-1 2 3 4
-5 6 7 8
-9 10 11 12
-13 14 15 16
-17 18 19 20
-21 22 23 24
-25 26 27 28
-29 30 31 32
-33 34 35 36
-37 38 39 40
-saaim  aokati p as
+Wypisze:  
+1 2 3 4  
+5 6 7 8  
+9 10 11 12  
+13 14 15 16  
+17 18 19 20  
+21 22 23 24  
+25 26 27 28  
+29 30 31 32  
+33 34 35 36  
+37 38 39 40  
+saaim  aokati p as  
 
 6.Przeanalizować i przedstawić zastosowania trampoline() i memoize().
 
@@ -101,8 +101,8 @@ saaim  aokati p as
 def list1 = [ 'a', 'b', 'c']
 def list2 = [ 1, 8, 23 ]
 ```
-za pomocą metody each(Closure)
-a) wypisać wszystkie elementy,
+za pomocą metody each(Closure)  
+a) wypisać wszystkie elementy,  
 b) stworzyć nowe listy list11 i list12 zawierające podwojone wartości list oryginalnych.
 
 
@@ -116,16 +116,16 @@ def pmap = [ Groovy: [ 'Asia', 'Jan' ],
                      JEE: [ 'Slawek', 'Stefan', 'Janusz' ]
                    ]
 ```
-Wypisać:
-a) ile osób pracuje w każdym z projektów
-b) projekty, które mają więcej niż dwóch programistów
+Wypisać:  
+a) ile osób pracuje w każdym z projektów  
+b) projekty, które mają więcej niż dwóch programistów  
 c)  w jakich projektach biorą udzial poszczególni programisci
 
 
 3.Daty w tekście maja postać YYYY-MM-DD (rok- miesiac- dzien). Wypisać wszystkie poprawne daty.
 czyli: po wyróznieniu wszytskicgh fragmentów, które mogą być datami sprawdizc ich poprawnośc.
 
-4.a) Napisać wyrażenie regularne, za pomoca którego mozna odnaleźć w tekście dowolne liczby rzeczywiste.
+4.a) Napisać wyrażenie regularne, za pomoca którego mozna odnaleźć w tekście dowolne liczby rzeczywiste.  
 b) zastosować je do przetwarzania tekstu zawierającego (posród innych) napisy w postaci liczba PLN, w taki sposób, aby zamienić te fragmenty na liczba EUR (po aktualnym kursie).
 
 ### PAB 07
@@ -165,3 +165,25 @@ Np.
 9 D:\docs\api\index-files\index-12.html
 10 D:\docs\api\index-files\index-13.html
 ```
+
+### PAB 08
+
+1.W dialogu wprowadzany jest ciąg liczb. Stworzyć  listę zawierającą ich podwojone wartości. Przedstawić możliwie najkrótszy kod realizujący to zadanie.
+
+2.Wypisać listę liczb posortowanych w porządku rosnącym. Z listy wejściowej  utworzyć oddzielną listę liczb mniejszych od zera.
+
+3.Posortuj listę liczb w porządku malejącym.  
+a) napisz własny komparator  
+b) zajrzyj do klasy Collections i zobacz czy nie ma tam cos ciekawego nt. odwrotnego porządku sortowania
+
+4.Utwórz posortowany zbiór słów z pliku. Słowa mają być uporządkowane według ich długości, jeśli długość jest taka sama należy zastosować porządek alfabetyczny.
+
+5.Policz liczbę wystąpień poszczególnych słów w pliku.  
+Wypisz słowa alfabetycznie wraz z informacją o liczbie wystąpień każdego słowa
+Uwagi:
+a) uwzględnić znaki interpunkcji  
+b) uwzględnić porządek alfabetyczny dla danego języka  
+
+6.Na liście słów z http://wiki.puzzlers.org/pub/wordlists/unixdict.txt znaleźć wszystkie anagramy.  
+a) wypisać je dla wszystkich słów w porządku liczby  anagramów danego słowa
+b) dla słowa podanego w dialogu wypisać anagramy w porządku alfabetycznym.
